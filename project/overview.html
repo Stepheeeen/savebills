@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <main>
+        <div class="navbar">
+
+            <div class="searchbar">
+                <div class="searchbar-wrapper">
+                    <div class="searchbar-left">
+                        <div class="search-icon-wrapper">
+                            <span class="search-icon searchbar-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 
+                                        6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 
+                                        4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 
+                                        5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="searchbar-center">
+                        <div class="searchbar-input-spacer"></div>
+
+                        <input type="text" class="searchbar-input" maxlength="200" name="q" autocapitalize="off"
+                            autocomplete="on" title="Search" role="combobox" placeholder="Search">
+                    </div>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="overview.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="" class="active">
+                        <img src="icons/dashboard-layout-40.png" alt="" class="over">
+                        <p>Overview</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="icons/wallet-40.png" alt="" class="wall">
+                        <p>Wallet</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="icons/bills-40.png" alt="" class="bill">
+                        <p>Bills</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="icons/merchant-account-40.png" alt="" class="merch">
+                        <P>Merchant</P>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="icons/profile-40.png" alt="" class="prof">
+                        <p>Profile</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="icons/settings-40.png" alt="" class="sett">
+                        <p>Settings</p>
+                    </a>
+                </li>
+            </ul>
+
+
+            <div class="logout">
+                <a href="">
+                    <img src="icons/icons8-open-door-40.png" alt="">
+                    <p>Logout</p>
+                </a>
+            </div>
+        </div>
+
+        <section class="overview" id="#overview">
+
+            <div class="welcome">
+                <h2>
+                    Overview
+                </h2>
+            </div>
+
+        
+            <div class="card">
+                <div class="nav-left">
+                    <button type="button">&#129168</button>
+                </div>
+                <div class="slide-card">
+                    <div class="slide">
+                        <div class="w-name">
+                            <p>
+                                Wallet Balance
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <button type="button">&#129170</button>
+                </div>
+            </div>
+
+            <!-- <div class="transaction">
+                <table>
+                    <thead>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Purpose</th>
+                        <th>Narration</th>
+                        <th>Amount (&#8358)</th>
+                        <th>Status</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Date">05-04-2023</td>
+                            <td data-label="Time">05:40pm</td>
+                            <td data-label="Purpose">Airtime</td>
+                            <td data-label="Narration">Deposit</td>
+                            <td data-label="Amount">5000</td>
+                            <td data-label="Status">Success</td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="Date">05-04-2023</td>
+                            <td data-label="Time">05:40pm</td>
+                            <td data-label="Purpose">Airtime</td>
+                            <td data-label="Narration">Deposit</td>
+                            <td data-label="Amount">5000</td>
+                            <td data-label="Status">Success</td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="Date">05-04-2023</td>
+                            <td data-label="Time">05:40pm</td>
+                            <td data-label="Purpose">Airtime</td>
+                            <td data-label="Narration">Deposit</td>
+                            <td data-label="Amount">5000</td>
+                            <td data-label="Status">Success</td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="Date">05-04-2023</td>
+                            <td data-label="Time">05:40pm</td>
+                            <td data-label="Purpose">Airtime</td>
+                            <td data-label="Narration">Deposit</td>
+                            <td data-label="Amount">5000</td>
+                            <td data-label="Status">Success</td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="Date">05-04-2023</td>
+                            <td data-label="Time">05:40pm</td>
+                            <td data-label="Purpose">Airtime</td>
+                            <td data-label="Narration">Deposit</td>
+                            <td data-label="Amount">5000</td>
+                            <td data-label="Status">Success</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> -->
+
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+
+</html>
